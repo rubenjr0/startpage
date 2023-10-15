@@ -1,59 +1,61 @@
 {
   "squares": [
     { "name": "media",
-      "color": "red",
+      "color": "#FB055A",
       "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/", "newTab": false },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Youtube", "url": "https://youtube.com" },
+        { "name": "Youtube Music", "url": "https://music.youtube.com/" },
+        { "name": "Nebula TV", "url": "https://nebula.tv/" },
+        { "name": "Spoap2Day", "url": "https://soap2dayx.to/home"}
       ]
     },
     { "name": "work",
-      "color": "#26A69A",
+      "color": "#5C9FFF",
       "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+        { "name": "CV", "url": "https://informatica.cv.uma.es/" },
+        { "name": "Portal Académico", "url": "https://sara.uma.es/portalacademico/" },
+        { "name": "ETSII", "url": "https://www.uma.es/etsi-informatica/" },
+        { "name": "Gmail", "url": "http://gmail.com/"}
       ]
     },
     { "name": "social",
+      "color": "#FDAA5A",
       "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        { "name": "Reddit", "url": "https://reddit.com/" },
+        { "name": "Twitter", "url": "https://twitter.com/" },
+        { "name": "LinkedIn", "url": "https://es.linkedin.com/" },
+        { "name": "Spectrum", "url": "https://robertsspaceindustries.com/spectrum/community/SC/" }
       ]
     },
     {
-      "name": "Others",
+      "name": "dev",
       "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+        { "name": "Github", "url": "https://github.com" },
+        { "name": "Devdocs", "url": "https://devdocs.io/" },
+        { "name": "Perplexity", "url": "https://www.perplexity.ai/" },
+        { "name": "ChatGPT", "url": "https://chat.openai.com/"}
       ]
     }
   ],
   "linkInNewTab": true,
-  "title": "startpage",
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "title": "Startpage",
+  "searchEngine":"Brave",
+  "user": "Mega",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
   "disable24Hour": false,
-  "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
+  "disableWeather": false,
+  "timeZone": "Europe/Madrid",
   "weatherConf": {
-    "location": "Pune India",
+    "location": "Málaga, Spain",
     "unit": "cel"
   },
-  "settingsIcon": false,
+  "settingsIcon": true,
   "style": {
-    "backgroundColor": "#212121",
+    "backgroundColor": "#1D1E20",
     "messageColor": "#fff",
-    "dateColor": "#d9d9d9",
+    "dateColor": "#F0F0F0",
     "lineColor": "#fff",
     "weatherColor": "#d9d9d9",
     "searchColor": "#fff",
@@ -66,16 +68,6 @@
     "r": "https://reddit.com",
     "g": "https://github.com",
     "y": "https://youtube.com",
-    "d": {
-      "URL": "https://duckduckgo.com",
-      "Search": "/?q="
-    },
-    "b": "https://bing.com",
-    "p": "https://startpage.com",
-    "s": "https://stackoverflow.com",
-    "w": {
-      "URL":"https://wikipedia.org/wiki",
-      "Search": "/Special:Search?search="
-    }
+    "b": "https://bing.com/chat"
   }
 }

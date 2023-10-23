@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "linkInNewTab": true,
+  "linkInNewTab": false,
   "title": "Startpage",
   "searchEngine":"Brave",
   "user": "Mega",

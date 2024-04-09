@@ -1,45 +1,99 @@
 {
   "squares": [
-    { "name": "media",
-      "color": "#FB055A",
+    {
+      "name": "games",
+      "color": "#3EB489",
       "links": [
-        { "name": "Youtube", "url": "https://youtube.com" },
-        { "name": "Youtube Music", "url": "https://music.youtube.com/" },
-        { "name": "Nebula TV", "url": "https://nebula.tv/" },
-        { "name": "Spoap2Day", "url": "https://soap2dayx.to/home"}
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/"
+        },
+        {
+          "name": "Helldivers",
+          "url": "https://helldiverscompanion.com/"
+        },
+        {
+          "name": "Star Citizen",
+          "url": "https://robertsspaceindustries.com/"
+        }
       ]
     },
-    { "name": "work",
-      "color": "#5C9FFF",
+    {
+      "name": "ai",
+      "color": "#A590FF",
       "links": [
-        { "name": "CV", "url": "https://informatica.cv.uma.es/" },
-        { "name": "Portal Académico", "url": "https://sara.uma.es/portalacademico/" },
-        { "name": "ETSII", "url": "https://www.uma.es/etsi-informatica/" },
-        { "name": "Gmail", "url": "http://gmail.com/"}
-      ]
-    },
-    { "name": "social",
-      "color": "#FDAA5A",
-      "links": [
-        { "name": "Reddit", "url": "https://reddit.com/" },
-        { "name": "Twitter", "url": "https://twitter.com/" },
-        { "name": "LinkedIn", "url": "https://es.linkedin.com/" },
-        { "name": "Spectrum", "url": "https://robertsspaceindustries.com/spectrum/community/SC/" }
+        {
+          "name": "Burn",
+          "url": "https://github.com/tracel-ai/"
+        },
+        {
+          "name": "r/localLLaMA",
+          "url": "https://reddit.com/r/localLLaMA/"
+        },
+        {
+          "name": "Papers With Code",
+          "url": "https://paperswithcode.com/"
+        }
       ]
     },
     {
       "name": "dev",
+      "color": "#16ABEE",
       "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Devdocs", "url": "https://devdocs.io/" },
-        { "name": "Perplexity", "url": "https://www.perplexity.ai/" },
-        { "name": "ChatGPT", "url": "https://chat.openai.com/"}
+        {
+          "name": "Blog",
+          "url": "https://rubenjr0.github.io/"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com"
+        },
+        {
+          "name": "Devdocs",
+          "url": "https://devdocs.io/"
+        }
+      ]
+    },
+    {
+      "name": "social",
+      "color": "#3EB489",
+      "links": [
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "name": "Reddit",
+          "url": "https://reddit.com/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://https://www.instagram.com/"
+        }
+      ]
+    },
+    {
+      "name": "uni",
+      "color": "#16ABEE",
+      "links": [
+        {
+          "name": "CV",
+          "url": "https://informatica.cv.uma.es/"
+        },
+        {
+          "name": "ETSII",
+          "url": "https://www.uma.es/etsi-informatica/"
+        },
+        {
+          "name": "Portal Académico",
+          "url": "https://sara.uma.es/portalacademico/"
+        }
       ]
     }
   ],
-  "linkInNewTab": true,
+  "linkInNewTab": false,
   "title": "Startpage",
-  "searchEngine":"Brave",
+  "searchEngine": "Brave",
   "user": "Mega",
   "disableMessage": false,
   "disableDate": false,
@@ -53,7 +107,7 @@
   },
   "settingsIcon": true,
   "style": {
-    "backgroundColor": "#1D1E20",
+    "backgroundColor": "#1d1d1d",
     "messageColor": "#fff",
     "dateColor": "#F0F0F0",
     "lineColor": "#fff",
@@ -63,11 +117,5 @@
     "squareColor": "#9e9e9e",
     "squareBackgroundColor": "#2e2e2e",
     "autocompleteHighlightBackgroundColor": "#3B3B3B"
-  },
-  "quickLinks": {
-    "r": "https://reddit.com",
-    "g": "https://github.com",
-    "y": "https://youtube.com",
-    "b": "https://bing.com/chat"
   }
 }
